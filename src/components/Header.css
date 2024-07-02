@@ -1,0 +1,83 @@
+/* Header Styles */
+.header {
+  background-color: #DF2E38;
+  color: #DDF7E3;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  color: #DDF7E3;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #5D9C59;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .header h1 {
+      margin-bottom: 0.5rem;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+  }
+
+  nav ul li {
+      margin-left: 0;
+      margin-bottom: 0.5rem;
+  }
+}

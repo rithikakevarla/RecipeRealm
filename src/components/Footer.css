@@ -1,0 +1,38 @@
+/* Footer Styles */
+.footer {
+    background-color: #DF2E38;
+    color: #DDF7E3;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer nav ul li {
+    margin-left: 1rem;
+  }
+  
+  .footer nav ul li a {
+    color: #DDF7E3;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  

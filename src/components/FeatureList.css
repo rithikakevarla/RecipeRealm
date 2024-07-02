@@ -1,0 +1,33 @@
+/* Feature List Styles */
+.features {
+    max-width: 800px;
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .features ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: green;
+  }
+  
+  .features ul li:before {
+    content: "\2022"; /* Bullet point */
+    color: #ff5722;
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
